@@ -1,9 +1,9 @@
-# Level 1 (MVP):
+# Level 1 (MVP): [x]
 
 Load news from API about a pre-set topic (e.g: React)
 When this is done and working, create a search bar, and allow the user to search for any topic (search input + “Search” button)
 
-# (bonus) Level 2:
+# (bonus) Level 2: [x]
 
 Display a spinner or a loading message when the news are being fetched
 Handle the scenario where no news match the user search

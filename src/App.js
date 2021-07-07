@@ -34,6 +34,7 @@ const App = () => {
     const interval = setInterval(() => getNews(), 300000);
     return () => clearInterval(interval);
   }, [getNews]);
+
   if (error) return <div>{error.message}</div>;
   return (
     <div className='container'>
